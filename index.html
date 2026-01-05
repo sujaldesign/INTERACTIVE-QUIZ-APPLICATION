@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interactive Quiz Application</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="quiz-container">
+
+ 
+  <div id="homeSection">
+    <h1>Interactive Quiz</h1>
+    <p class="home-text">
+      Test your frontend knowledge with timed questions and detailed result analysis.
+    </p>
+    <button id="startQuizBtn">Start Quiz</button>
+  </div>
+
+
+  <div id="quizSection">
+
+    <div class="timer-wrapper">
+      <svg width="80" height="80" class="timer-svg">
+        <circle class="timer-bg" cx="40" cy="40" r="36"></circle>
+        <circle class="timer-progress" cx="40" cy="40" r="36"></circle>
+      </svg>
+      <span id="timer">60</span>
+    </div>
+
+    <h2 id="question"></h2>
+
+    <div id="options"></div>
+
+    <p id="feedback"></p>
+
+    <div class="bottom">
+      <span id="score">Score: 0</span>
+      <button id="nextBtn">Next</button>
+    </div>
+
+  </div>
+
+
+  <div id="resultSection">
+
+    <h2>Result Analysis</h2>
+
+    <div class="result-container">
+      <svg width="120" height="120">
+        <circle class="result-bg" cx="60" cy="60" r="54"></circle>
+        <circle class="result-progress" cx="60" cy="60" r="54"></circle>
+      </svg>
+
+      <div class="result-text">
+        <span id="resultPercent">0%</span>
+        <p id="resultLabel"></p>
+      </div>
+    </div>
+
+    <p id="finalScore"></p>
+    <button id="restartBtn">Back to Home</button>
+
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
