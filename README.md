@@ -14,46 +14,15 @@
 
 *Task Description*
 For this task, I developed an interactive quiz application using JavaScript that allows users to answer questions and receive instant feedback in a clean and engaging interface. The main goal of the project was to create a polished frontend experience with dynamic question loading and real-time scoring.
-  Dynamic Question Loading
+The quiz loads questions dynamically from predefined question sets related to frontend development topics. Instead of hardcoding content in the UI, questions and options are rendered using JavaScript, which makes the application flexible and easy to extend. Each quiz session presents one question at a time, keeping the interface simple and focused.
+To enhance user engagement, the application includes a real-time scoring system that updates instantly based on user responses. When a user selects an answer, the application provides immediate visual feedback: correct answers are highlighted with a green glow, while incorrect answers are highlighted with a red glow. This clear feedback helps users quickly understand their performance.
+Technologies Used
 
-Questions are loaded dynamically from predefined datasets.
+HTML5 for structure
 
-No hardcoded UI content, making the quiz scalable and flexible.
+CSS3 for styling, animations, and visual effects
 
-Real-Time Scoring System
+JavaScript for logic, state management, and DOM manipulation
+Overall, this project demonstrates strong frontend fundamentals, including dynamic DOM manipulation, state management, user interaction handling, and polished UI feedback. It delivers a complete quiz application.
 
-Score updates instantly based on user responses.
 
-Correct and incorrect answers are visually distinguished.
-
-Visual Feedback
-
-Correct answers are highlighted with a green glow.
-
-Incorrect selections are highlighted with a red glow.
-
-Disabled options prevent multiple selections per question.
-
-Per-Question Timer
-
-Each question includes a 60-second countdown timer.
-
-Timer is displayed using a circular progress indicator.
-
-Visual warning is shown when time is below 10 seconds.
-
-Automatically moves to the next question if time runs out.
-
-Result Analysis
-
-Displays final performance using an animated circular progress bar.
-
-Shows score percentage with color-coded feedback.
-
-Provides clear performance labels (e.g., Excellent, Good, Needs Improvement).
-
-Restartable Quiz Flow
-
-Users can restart the quiz without refreshing the page.
-
-Score, timer, and UI states reset correctly on restart.
