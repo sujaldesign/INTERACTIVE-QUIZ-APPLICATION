@@ -25,4 +25,7 @@ CSS3 for styling, animations, and visual effects
 JavaScript for logic, state management, and DOM manipulation
 Overall, this project demonstrates strong frontend fundamentals, including dynamic DOM manipulation, state management, user interaction handling, and polished UI feedback. It delivers a complete quiz application.
 
-
+<img width="1919" height="1015" alt="Image" src="https://github.com/user-attachments/assets/1248c625-0bcb-4d11-af95-10119fbfd905" />
+<img width="1919" height="1017" alt="Image" src="https://github.com/user-attachments/assets/228f299e-07bd-4b31-a35e-fd2af03059e4" />
+<img width="1919" height="1017" alt="Image" src="https://github.com/user-attachments/assets/8fe0a1f6-969a-47cc-a390-a48cdc9aabba" />
+<img width="1919" height="1014" alt="Image" src="https://github.com/user-attachments/assets/8baf622a-9856-4c0d-986f-e7c3870f84a0" />
